@@ -1,0 +1,161 @@
+.f_group {
+    margin-bottom: 30px;
+}
+.f_group label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333333;
+    display: block;
+    margin-bottom: 12px;
+    height: 14px;
+}
+
+.f_group .textcenter {
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    color: #888888;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+.f_group input[type=text],
+.f_group input[type=phone],
+.f_group input[type=email],
+.f_group select,
+.f_group textarea,
+.f_group input[type=password] {
+    height: 40px;
+    display: block;
+    width: 100%;
+    padding: 0 19px;
+    border: 1px solid #bdbdbd;
+    resize: none;
+    outline: 0;
+}
+
+.f_group.mb10 {
+    margin-bottom: 10px !important;
+}
+
+.lk_user_body_chat {
+    padding: 20px;
+    background: #f3f3f3;
+    -webkit-border-radius: 0 0 15px 15px;
+    -moz-border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;
+}
+
+.lk_user_body_chat .f_group textarea,
+.f_group textarea {
+    height: 130px;
+    padding: 5px 15px;
+}
+
+.lk_user_body_chat h3 {
+    margin-bottom: 25px;
+    display: block;
+    font-size: 20px;
+    color: #333333;
+}
+
+
+.c_body {
+    height: 340px;
+    overflow-x: scroll;
+    padding-right: 20px;
+}
+
+.c_body_message_self {
+    background: #e0eefa;
+    border-radius: 10px 10px 0 10px;
+}
+
+.c_body_message_second {
+    background: #e6e9ea;
+    border-radius: 10px 10px 10px 0px;
+}
+
+.c_body_message {
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+    line-height: 2;
+    padding: 10px;
+    display: inline-block;
+    max-width: 80%;
+    vertical-align: middle;
+}
+
+.c_body_message_wrapper {
+    margin-bottom: 6px;
+
+}
+
+.c_body_message_wrapper_self {
+    text-align: right;
+}
+
+.c_body_message_wrapper_second {
+    text-align: left;
+}
+
+.c_rew_body_message {
+    background: #e6e9ea;
+    padding: 13px;
+    -webkit-border-radius: 0 10px 10px 10px;
+    -moz-border-radius: 0 10px 10px 10px;
+    border-radius: 0 10px 10px 10px;
+}
+
+.c_rew_body_message_img img {
+    width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+.c_rew_body_message_name span,
+.c_rew_body_message_name a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #333333;
+    margin-bottom: 6px;
+}
+
+.c_rew_body_message_link a:hover {
+    text-decoration: none;
+}
+
+.c_rew_body_message_link a {
+    font-size: 12px;
+    text-decoration: underline;
+    color: #3f51b5;
+    margin-bottom: 6px;
+}
+
+.c_rew_body_message {
+    margin-bottom: 6px;
+}
+
+.c_body_message_info {
+    display: inline-block;
+    font-size: 11px;
+    color: #b6b6b6;
+    vertical-align: middle;
+}
+
+.c_body_message_wrapper_second .c_body_message_info {
+    margin-left: 10px;
+}
+
+.c_body_message_wrapper_self .c_body_message_info {
+    margin-right: 10px;
+}
+
+.c_body_message_wrapper_self .c_body_message_info img {
+    position: relative;
+    top: -1px;
+    margin-right: 2px;
+}

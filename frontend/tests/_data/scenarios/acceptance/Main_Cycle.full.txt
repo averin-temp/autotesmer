@@ -1,0 +1,22 @@
+I WANT TO FULL
+
+I register "" 
+I create order "" 
+I have friend 'expert'," '\frontend\tests\Step\Acceptance\Expert' 
+I register "" 
+I buy package "" 
+I have friend 'payU'," '\frontend\tests\Step\Acceptance\PayU' 
+I send success payment1 "" 
+I create request "" 
+I have friend 'admin' 
+
+----- admin does ----- 
+I login "" 
+-------- back to me
+ 
+I send brief "" 
+I fill brief "" 
+I choose expert "" 
+I create report "" 
+I complete order ""
+

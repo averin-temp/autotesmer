@@ -1,0 +1,14 @@
+I WANT TO CREATE REQUEST
+
+I register "" 
+I am on url "$this->urlHome" 
+I am on page '/orders' 
+I click '.header-city-select  .dropdown-toggle' 
+I click '.header-city-select .city-20' 
+I see ""Подать заявку"" 
+I click '.send-request' 
+I fill field 'input[name="request[price]"]'," 20" 
+I fill field 'input[name="request[period]"]'," 2" 
+I fill field 'input[name="request[content]"]'," "some text"" 
+I click '.send-request-button'
+

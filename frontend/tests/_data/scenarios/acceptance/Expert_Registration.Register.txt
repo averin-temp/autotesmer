@@ -1,0 +1,24 @@
+I WANT TO REGISTER
+
+I am on page(url::home ")" 
+I click '.registration-button' 
+I click '.register_page_right_bot > a' 
+I click '.mp_main_bot > a' 
+I fill field "['name' => "family"]"," "Экспертов"" 
+I fill field "['name' => "firstname"]"," "Эксперт"" 
+I fill field "['name' => "lastname"]"," "Экспертович"" 
+I fill field(['name' => "phone"], "+7  "932) 019-52-93"" 
+I fill field "['name' => "email"]"," "testmailbox_2@inbox.ru"" 
+I select option 'select[name=city]'," [ 'value' => 20 ]" 
+I fill field "['name' => "password"]"," "1"" 
+I fill field "['name' => "confirm"]"," "1"" 
+I select option 'input.custom-control-input[name=category_auto]'," [ 'value' => 1 ]" 
+I select option 'input.custom-control-input[name=category_freight]'," [ 'value' => 1 ]" 
+I select option 'input.custom-control-input[name=first_time_verification]'," [ 'value' => 1 ]" 
+I select option 'input.custom-control-input[name=personal_data_processing_agree]'," [ 'value' => 1 ]" 
+I select option 'input.custom-control-input[name=data_authentic]'," [ 'value' => 1 ]" 
+I submit form '#expert-registration-form'," []" 
+I see ""Письмо со ссылкой для активации аккаунта выслано на Ваш почтовый ящик"" 
+I click "".wspam1 p > a"" 
+I see ""Поздравляем!""
+

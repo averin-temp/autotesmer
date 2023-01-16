@@ -1,0 +1,18 @@
+suite_namespace: frontend\tests\acceptance
+actor: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver:
+              url: 'http://autotesmer-test.local'
+              port: 9515
+              browser: chrome
+              capabilities:
+                "goog:chromeOptions":
+                  args: ["--window-size=1900,900", "--force-device-scale-factor=0.5"]
+        - Db:
+            dsn: 'mysql:host=localhost;dbname=autotesmer_test'
+            user: 'root'
+            password: ''
+            dump: tests/_data/dev_clear.sql
+            cleanup: true
+            populate: true

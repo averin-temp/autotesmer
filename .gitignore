@@ -1,0 +1,55 @@
+# yii console commands
+/yii
+/yii_test
+/yii_test.bat
+
+# phpstorm project files
+.idea
+
+.htaccess
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+#/vendor
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+/chromedriver.exe
+/selenium-server-standalone-3.141.59.jar
+/robots.txt
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+/_receiver.html
+# vagrant runtime
+/.vagrant
+
+# ignore generated files
+
+/frontend/web/robots.txt
+/backend/web/robots.txt
+
+frontend/web/uploads
+
+common/config/main-local.php
+
+backend/web/.htaccess
+frontend/web/.htaccess
+
+
+/*.sql
